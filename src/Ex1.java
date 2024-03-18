@@ -1,9 +1,6 @@
 import java.util.Arrays;
 
 /**
- * Introduction to Computer Science, Ariel University, Ex1 (manual Example + a Template for your solution)
- * See: https://docs.google.com/document/d/1C1BZmi_Qv6oRrL4T5oN9N2bBMFOHPzSI/edit?usp=sharing&ouid=113711744349547563645&rtpof=true&sd=true
-
  * Ex1 Bulls & Cows - Automatic solution.
  * **** Add a general readme text here ****
  * Add your explanation here:
@@ -31,9 +28,7 @@ import java.util.Arrays;
  * Make sure to state the average required guesses
  * for 2,3,4,5,6-digit code:
 
- * FOR TEST RESULTS
- * https://github.com/ShacharTs/Auto-Solve-Bull-Cow.git
- * FOR TEST RESULTS
+ 
 
  * Average of 100 runs
 
@@ -49,8 +44,8 @@ public class Ex1 {
 
     public static void main(String[] args) {
         BP_Server game = new BP_Server();   // Starting the "game-server"
-        long myID = 318790169;             // Your ID should be written here
-        int numOfDigits = 5;                // Number of digits [2,6]
+        long myID = 11111111;             // Your ID should be written here
+        int numOfDigits = 4;                // Number of digits [2,6]
         game.startGame(myID, numOfDigits);  // Starting a game
         System.out.println(Title + " with code of " + numOfDigits + " digits");
         autoEx1Game(game);
